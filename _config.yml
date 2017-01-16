@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://czjxy881.github.io
+title: LambdaJ 的博客
+subtitle: 博观约取，厚积薄发
+author: Lambda Jia
 simple_search: https://www.google.com/search
 description:
 
@@ -16,10 +16,11 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
-subscribe_email:
+# subscribe_rss: /atom.xml
+# subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: czjxy8898@gmail.com
+email_md5: 6b474017d653081ce99040f6abc34aad
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -71,8 +72,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 #   3rd Party Settings    #
 # ----------------------- #
 
-# # Github repositories
-# github_user:
+linkedin_user: 新禹-贾-17b984114
+github_user: czjxy881
+douban_user: 72044687
 # github_repo_count: 0
 # github_show_profile_link: true
 # github_skip_forks: true
