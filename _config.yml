@@ -75,6 +75,11 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 linkedin_user: 新禹-贾-17b984114
 github_user: czjxy881
 douban_user: 72044687
+
+# duoshuo comments
+duoshuo_comments: true
+duoshuo_short_name: lambdaj
+
 # github_repo_count: 0
 # github_show_profile_link: true
 # github_skip_forks: true
