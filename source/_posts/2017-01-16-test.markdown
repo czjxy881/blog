@@ -3,7 +3,7 @@ layout: post
 title: "test"
 date: 2017-01-16 20:47:24 +0800
 comments: true
-categories: 
+categories: Test
 ---
 Hello
 Currently five cell types are supported:
@@ -13,7 +13,7 @@ Currently five cell types are supported:
 3. A "Markdown Cell" lets you write in Markdown with inline formatting and custom CSS options.
 4. A "LaTeX Cell” uses MathJax to typeset mathematical equations in your notes.
 5. A “Diagram Cell” lets you create sequence diagrams and flowcharts from text.
-
+<!--more-->
 ### Text Cell
 
 This is a **text cell** with *some* simple* formatting*.
