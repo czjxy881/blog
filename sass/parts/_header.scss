@@ -17,10 +17,12 @@ $header-height: 30px;
 			color: $color-main;
 		}
 	}
-	h1{
+	> h1{
 		float: left;
 		font-weight: 300;
 		font-size: 30px;
+		color: #c5c5c5;
+		font-family: initial;
 		@media screen and (max-width: 1040px){
 			float: none;
 		}

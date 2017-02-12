@@ -31,6 +31,9 @@ a{
 	outline-width: 0;
 	color: $color-main;
 }
+section {
+	margin-bottom: 20px;
+}
 
 .basic-alignment {
   &.left { float: left; margin-right: 1.5em; }
