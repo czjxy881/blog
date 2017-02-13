@@ -22,7 +22,6 @@
 			@include transition(0.3s);
 		}
 		.date, .tags, .comments{
-			padding-left: 30px;
 			position: relative;
 			&:before{
 				color: $color-gray03;
