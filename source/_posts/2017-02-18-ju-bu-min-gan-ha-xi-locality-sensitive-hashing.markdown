@@ -30,6 +30,7 @@ categories: 信息检索
 |Hamming|Sampling Hash|
 |Jaccard|Min Hash|
 |Angle|Sim Hash|
+
 + Sampling Hash其实就是简单的bit值作为hash
 + Min Hash在上一篇文章中已经介绍过了
 + Sim Hash是一种基于角相似度的，具体原理介绍请见[1]中的那个ppt，上面有具体的证明
