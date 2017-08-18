@@ -16,6 +16,7 @@ categories: JAVA Jetty
 
 ### 排查
 + dump后发现大量线程BLOCKED，都在等待`sun.nio.cs.FastCharsetProvider.charsetForName`
+
 ![BLOCKED](https://zos.alipayobjects.com/rmsportal/oPdVBZYffSSFkHOHJtDt.jpg)
 ![blocked detail.png](https://zos.alipayobjects.com/rmsportal/gaCyaAFQVqtdVHfWNeFM.png)
 + 查看源码，可以看到这是个同步方法
@@ -38,4 +39,9 @@ IOUtils.toString(input, "UTF-8");
 
 ### 反思
 + 细节非常重要，要多学习学习开源代码
+
+### 后记(2017.03.26) 
++ 今天想用spring boot 1.5.2重现一次bug，但发现没法重现，试了狂压，多个异步线程池同时IOUtils，但是效果都不好，都没有造成connect reset，可能UTF8的锁也只是个表象，更有深层原因，也有可能是底层升级已经修复了。等后面再碰到再仔细研究下吧
+
+
 
